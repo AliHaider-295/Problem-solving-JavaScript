@@ -35,15 +35,15 @@ return result
 
 
 
-// check palindrom function with inbuilt function;
+// check palindrom function with inbuilt function; 
 
-function isPalindrome(InputString){
+function isPalindrome(InputString){ 
  
     for(let i = 0; i <= InputString.length /2; i ++){
       if( InputString[i] !== InputString[InputString.length -1 - i]){
         return false
       }
-      return true;
+      return true; 
     }
 
 
