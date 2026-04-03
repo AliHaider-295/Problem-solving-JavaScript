@@ -4,7 +4,7 @@
 function calculateVowelsAndConsonants(InputString){
 
 InputString = InputString.toLowerCase();
-InputString = InputString.replace(" ","");
+InputString = InputString.replace(/ /g,"");
 
 const vowels = "aeiou";
 const consonants = "bcdfghjklmnpqrstvwxyz";
@@ -77,25 +77,25 @@ console.log(calculateVowelsAndConsonants("Pakistan7"))
 
 
 
-// function countVowelAndConsonants(InputString){
-//         InputString = InputString.toLowerCase();
-//     const vowel = "aeiou";
-//     const consonts = "bcdfghjklmnpqrstvwxyz"
+function countVowelAndConsonants(InputString){
+        InputString = InputString.toLowerCase();
+    const vowel = "aeiou";
+    const consonts = "bcdfghjklmnpqrstvwxyz"
 
-//     let vowelCount = 0;
-//     let consontsCount = 0;
+    let vowelCount = 0;
+    let consontsCount = 0;
 
-//     for( let i = 0; i <= InputString.length-1; i++){
-//            if(vowel.includes(InputString[i])){
-//               vowelCount++;
-//     }
-//     else if(consonts.includes(InputString[i])){
-//         consontsCount++;
-//     }
+    for( let i = 0; i <= InputString.length-1; i++){
+           if(vowel.includes(InputString[i])){
+              vowelCount++;
+    }
+    else if(consonts.includes(InputString[i])){
+        consontsCount++;
+    }
     
-//     }
-//     return { vowelCount , consontsCount}
+    }
+    return { vowelCount , consontsCount}
    
 
-// }
-// console.log("",countVowelAndConsonants("HelloWorld"))
+}
+console.log("",countVowelAndConsonants("HelloWorld"))
