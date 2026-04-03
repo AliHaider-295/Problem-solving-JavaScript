@@ -7,18 +7,18 @@
 //     throw new Error("Input should be string")
 //  }
    
-//    let reversedStr = inputValue.toLowerCase();
+//    let reversedStr = inputValue.toLowerCase();   
      
 //     reversedStr = inputValue.split("").reverse().join("");
 //     if( inputValue === reversedStr){
 //     return true;
 // }
 // else{
-//     return false
-// }
+//     return false  
+// } 
 // }
 
-// console.log(reversedString("madam"))
+// console.log(reversedString("madam")) 
 
 
 // Reversed String with help of For loop
