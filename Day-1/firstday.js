@@ -11,14 +11,14 @@
      
 //     reversedStr = inputValue.split("").reverse().join("");
 //     if( inputValue === reversedStr){
-//     return true;
+//     return true; 
 // }
 // else{
-//     return false  
+//     return false   
 // } 
 // }
 
-// console.log(reversedString("madam")) 
+// console.log(reversedString("madam"))  
 
 
 // Reversed String with help of For loop
