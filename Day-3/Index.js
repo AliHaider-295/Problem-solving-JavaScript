@@ -15,5 +15,22 @@ console.log(reversedString("47245"))
 
 
 
+function reversedNewString(str){
+
+let result = "";
+
+for( let i = str.length -1; i >= 0; i--){
+    result += str[i] 
+}
+return result
+
+}
+console.log(reversedNewString("india"))
+
+
+
+
+
+
 
 
