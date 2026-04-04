@@ -65,3 +65,19 @@ function isPalindromeCheck(inputforPalindrome){
 console.log(isPalindromeCheck("f2las"))
 
 
+// find the largest number in the array
+
+let arr = [23,45,66,5,77,88]
+// const max = Math.max(...arr)
+//     console.log(max)
+
+
+   let max = arr[0];
+
+for (let i = 1; i < arr.length; i++) {
+    if (arr[i] > max) {
+        max = arr[i];
+    }
+}
+
+console.log(max);
