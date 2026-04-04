@@ -67,17 +67,38 @@ console.log(isPalindromeCheck("f2las"))
 
 // find the largest number in the array
 
-let arr = [23,45,66,5,77,88]
+// let arr = [23,45,66,5,77,88]
 // const max = Math.max(...arr)
 //     console.log(max)
 
 
-   let max = arr[0];
+//    let max = arr[0];
 
-for (let i = 1; i < arr.length; i++) {
-    if (arr[i] > max) {
-        max = arr[i];
-    }
-}
+// for (let i = 1; i < arr.length; i++) {
+//     if (arr[i] > max) {
+//         max = arr[i];
+//     }
+// }
 
-console.log(max);
+// console.log(max);
+
+// let arr = [20,34,55,66,44,66]
+
+// let max = arr[0];
+
+// arr.forEach(num =>{
+//     if (num > max){
+//         max = num
+//     }
+// })
+// console.log(max)
+
+
+
+let arr = [4,56,7,4,5]
+
+// const max = arr.reduce((a,b)=> a > b ? a: b)
+// console.log(max)
+
+arr.sort((a,b)=> b-a)
+console.log(arr[0])
