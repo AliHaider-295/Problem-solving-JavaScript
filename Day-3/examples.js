@@ -10,7 +10,7 @@
 
 //  Remove Duplicates form give an array
 
-let arr = [10,23,30,40,40,49,49,49,20]
+let arr = [10,23,30,40,40,49,49,49,20,505,505,505,505,1,1,1,1,11,1,1,1,1,,11,1,1,1,1,1]
 // // const unique = [...new (arr)]
 // // console.log(unique)
 
@@ -20,9 +20,17 @@ let arr = [10,23,30,40,40,49,49,49,20]
 // console.log(uniqueNew)
 
 
-const freqency = {};
+// const freqency = {};
 
-for( let num of arr){
-    freqency [num] = (freqency [num] || 0) + 1
-}
+// for( let num of arr){
+//     freqency [num] = (freqency [num] || 0) + 1
+// }
+// console.log(freqency)
+
+
+
+const freqency = arr.reduce((acc, curr)=>{
+    acc[curr] = (acc[curr]|| 0) + 1
+    return acc
+},{})
 console.log(freqency)
